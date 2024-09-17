@@ -1,0 +1,31 @@
+{
+    "tynystanovName": "K. Tynystanov ISU",
+    "location": "722200 Karakol, Issyk-Kul",
+    "nav": {
+        "nav1": {
+            "title": "Home",
+            "m1": "About the University",
+            "m2": "Administration",
+            "m3": "Departments"
+        },
+        "nav2": {
+            "title": "Education",
+            "m1": "Faculties",
+            "m2": "College",
+            "m3": "Distance Education and Advanced Training Center",
+            "m4": "Courses"
+        },
+        "nav3": {
+            "title": "For Applicants"
+        },
+        "nav4": {
+            "title": "For Students"
+        },
+        "nav5": {
+            "title": "Science"
+        },
+        "nav6": {
+            "title": "Centers"
+        }
+    }
+}
