@@ -55,14 +55,14 @@
 }
 
 .dropdownContent {
-    /* position: absolute; */
-    /* background-color: #2A1A5E; */
+    position: absolute;
+    background-color: #2A1A5E;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s ease; /* Переход для высоты */
-   font-size: 0.7ch;
+   /* font-size: 0.7ch; */
     
     
 }
@@ -194,6 +194,12 @@
     .LogoBlock img{
         word-wrap: 60px;
     }
+    .dropdownContent{
+        font-size: 1ch;
+        
+        position: static;
+        background: transparent;
+         }
   }
 
  @media (max-width:740px) {
