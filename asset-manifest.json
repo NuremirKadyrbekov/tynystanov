@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tynystanov/static/css/main.c32f08a0.css",
+    "main.css": "/tynystanov/static/css/main.66381417.css",
     "main.js": "/tynystanov/static/js/main.3767912b.js",
     "static/media/logo.png": "/tynystanov/static/media/logo.7ef1b707f04caa175677.png",
     "index.html": "/tynystanov/index.html",
-    "main.c32f08a0.css.map": "/tynystanov/static/css/main.c32f08a0.css.map",
+    "main.66381417.css.map": "/tynystanov/static/css/main.66381417.css.map",
     "main.3767912b.js.map": "/tynystanov/static/js/main.3767912b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c32f08a0.css",
+    "static/css/main.66381417.css",
     "static/js/main.3767912b.js"
   ]
 }
