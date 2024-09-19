@@ -12,6 +12,7 @@ import Pr9 from '../assets/projects/pro3.jpg'
 import Pr10 from '../assets/projects/pro5.jpg'
 import Pr11 from '../assets/projects/pro6.jpg'
 import Pr12 from '../assets/projects/ЖТ-лого-final-2.png'
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -20,6 +21,8 @@ import Pr12 from '../assets/projects/ЖТ-лого-final-2.png'
 
 
 const ProjectsSlider = () => {
+  const {t} = useTranslation()
+
   const sliderRef = useRef(null);
 
   useEffect(() => {
@@ -44,7 +47,7 @@ const ProjectsSlider = () => {
 
   return (
     <div className={Css.SliderContainer}>
-      <h2>ПРОЕКТЫ</h2>
+      <h2 className={Css.Title}>{t('projects')}</h2>
       <div className={Css.Slider} ref={sliderRef}>
         <div className={Css.Slide}>
           <img src={Pr1} className={Css.Project1} alt="Проект 1" />

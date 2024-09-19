@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { db, storage } from '../../firebase'; // Импорт Firebase конфигурации
 import { doc, setDoc, getDoc, updateDoc } from 'firebase/firestore';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import Css from './styles.module.css';
+import Css from './NewPosts.module.css';
 
-function NewNews() {
+function NewPosts() {
     const [language, setLanguage] = useState('kg'); // По умолчанию кыргызский
     const [nameKg, setNameKg] = useState('');
     const [nameRu, setNameRu] = useState('');
@@ -20,7 +20,7 @@ function NewNews() {
     useEffect(() => {
         // Получение текущего номера новости при загрузке компонента
         const fetchNewsNumber = async () => {
-            const counterDocRef = doc(db, 'metadata', 'newsCounter');
+            const counterDocRef = doc(db, 'metadata', 'postsCounter');
             const counterDoc = await getDoc(counterDocRef);
             if (counterDoc.exists()) {
                 setNewsNumber(counterDoc.data().counter || 0);
@@ -78,10 +78,10 @@ function NewNews() {
             };
 
             // Отправка данных в Firestore
-            await setDoc(doc(db, 'news', (newsNumber + 1).toString()), newsData);
+            await setDoc(doc(db, 'posts', (newsNumber + 1).toString()), newsData);
 
             // Обновление счетчика новостей
-            await updateDoc(doc(db, 'metadata', 'newsCounter'), { counter: newsNumber + 1 });
+            await updateDoc(doc(db, 'metadata', 'postsCounter'), { counter: newsNumber + 1 });
 
             alert('Новость успешно добавлена!');
         } catch (error) {
@@ -120,7 +120,7 @@ function NewNews() {
                 </div>
                 <input
                     className={Css.NewName}
-                    placeholder='Название новости'
+                    placeholder='Название обьявления'
                     value={language === 'kg' ? nameKg : language === 'ru' ? nameRu : nameEn}
                     onChange={(e) => {
                         if (language === 'kg') setNameKg(e.target.value);
@@ -130,7 +130,7 @@ function NewNews() {
                 />
                 <textarea
                     className={Css.NewTitle}
-                    placeholder='Описание новости'
+                    placeholder='Описание обьявления'
                     value={language === 'kg' ? titleKg : language === 'ru' ? titleRu : titleEn}
                     onChange={(e) => {
                         if (language === 'kg') setTitleKg(e.target.value);
@@ -157,4 +157,4 @@ function NewNews() {
     );
 }
 
-export default NewNews;
+export default NewPosts;

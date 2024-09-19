@@ -3,6 +3,7 @@ import Css from './admin.module.css'
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import NewNews from './NewNews';
 import NewUsers from './NewUsers';
+import NewPosts from './NewPosts';
 
 
 function Admin() {
@@ -14,6 +15,9 @@ function Admin() {
 
     const SetNewUsers = () => {
         SetShowBlock('newusers')
+    }
+    const SetNewPosts = () => {
+        SetShowBlock('newposts')
     }
 
 
@@ -27,7 +31,11 @@ function Admin() {
             case 'newusers':
                 return <NewUsers />
                 break;
+            case "newposts":
+                return <NewPosts/>
+                break;
         }
+
     }
 
     return (
@@ -44,6 +52,7 @@ function Admin() {
                 <Menu>
                     <SubMenu label="Добавить">
                         <MenuItem onClick={SetNewsShow}>Новую новость</MenuItem>
+                        <MenuItem onClick={SetNewPosts}> Новое Обьявление </MenuItem>
                         <MenuItem onClick={SetNewUsers}> Нового пользователя </MenuItem>
                     </SubMenu>
                     <SubMenu label="Контакты">

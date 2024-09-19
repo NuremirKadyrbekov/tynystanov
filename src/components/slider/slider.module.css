@@ -5,7 +5,7 @@
 }
 .sliderContainer img{
     border-radius: 5px;
-    width: 1000px;
+    width: 100%;
 }
 
 .slick-slide img {

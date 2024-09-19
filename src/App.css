@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
 
-
+:root{
+    --main-color:#2A1A5E;
+    --border-color:rgba(128, 128, 128, 0.734);
+}
 
 * {
     margin: 0;
@@ -9,6 +12,7 @@
     font-family: "Unbounded", sans-serif;
     font-style: normal;
 }
+
 
 html,
 body {
@@ -116,3 +120,28 @@ html {
 
 
 
+
+.menu{
+    display: none;
+    z-index: 9999;
+}
+
+
+
+@media (max-width:1240px) {
+    .menu{
+        display: block;
+    }
+    .stickyMenu{
+        position: fixed;
+        top:90px; /* Меняем top для навбара, чтобы он не перекрывал Cup */
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: #2A1A5E;
+        z-index: 99999; /* Уменьшаем z-index, чтобы Cup был сверху */
+        /* animation: navbar 400ms linear ;  */
+    }
+}

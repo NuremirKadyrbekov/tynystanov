@@ -95,7 +95,7 @@ function NavBar() {
 
 
       </div>
-      <div className={Css.menu}>
+      <div className={`menu ${isSticky ? 'stickyMenu' : ''}`}>
         <input type="checkbox" id="burger-checkbox" className={Css.burgerCheckbox} />
         <label for="burger-checkbox" className={Css.burger}></label>
         <ul className={Css.menuList}>
@@ -142,6 +142,8 @@ function NavBar() {
 
             </ul>
           </li>
+          {Local?'':<Link className={Css.Btn}  to={'/login'}><p>{t('nav.login')}</p></Link>}
+
         </ul>
       </div>
     </div>

@@ -35,5 +35,23 @@
    "RegCardSubTitle":"Online",   
    "RegCardDesc":"Online registration of applicants on the basis of secondary specialized and higher education",
    "RegCardBtn":"Go",
-   "LibCard":"Scientific Library"
+   "LibCard":"Scientific Library",
+   "projects":"Projects",
+   "News":"News",
+   "Posts":"Posts",
+   "Date":"Date",
+   "faculty":{
+        "title":"Faculty",
+        "f1":"Faculty of Philology",
+        "f2":"Faculty of Education",
+        "f3":"Faculty of Physics, Mathematics and Natural Engineering",
+        "f4":"Faculty of Economics, Tourism and History"
+        }, 
+    "frame":{
+        "title":"Корпус",
+        "f1":"Frame 1 Main", 
+        "f2":"Frame 2 ",
+        "f3":"Frame 3",
+        "f4":"Frame 4 College"
+    }    
 }

@@ -10,6 +10,7 @@ import { IoMail } from "react-icons/io5";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
 import Home from '../../Home/Home';
+import Footer from '../../Footer/Footer';
 
 function Head({ onChangeLanguage }) {
     const [isStickyCup, setIsStickyCup] = useState(false);
@@ -41,8 +42,8 @@ function Head({ onChangeLanguage }) {
                         <li onClick={() => onChangeLanguage('en')}>EN</li>
                     </ol> 
                     <ol className={Css.Contacts}>
-                       <li><FaPhone  color='#F24080'/> +996 999 999 999</li>
-                       <li><IoMail size={'1.2em'} color='#F24080'  />  iksu@gmail.com</li>
+                       <li><FaPhone  color='#F24080'/> +996 392250123</li>
+                       <li><IoMail size={'1.2em'} color='#F24080'  />interiksu@gmail.com</li>
                        <li><FaMapMarkerAlt size={'1.2em'} color='#F24080' />{t('location')}</li>
                     </ol>
                     <ol className={Css.SocialLinks}>
@@ -60,7 +61,7 @@ function Head({ onChangeLanguage }) {
             <div className={Css.Block1}>
               <Home/>
             </div>
-            
+              <Footer/>
         </div>
     )
 }
