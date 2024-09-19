@@ -1,0 +1,10 @@
+.Main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 11fr;
+}
+.Content{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100vh;
+}

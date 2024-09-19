@@ -1,0 +1,33 @@
+.sliderContainer {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.sliderContainer img{
+    border-radius: 5px;
+    width: 1000px;
+}
+
+.slick-slide img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 20px;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+    /* Цвет кнопок навигации */
+}
+
+.slick-dots li button:before {
+    color: black;
+    /* Цвет точек */
+}
+
+.slick-dots li.slick-active button:before {
+    color: red;
+    /* Цвет активной точки */
+}

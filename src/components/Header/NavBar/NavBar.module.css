@@ -10,19 +10,19 @@
 .LogoBlock { 
     display: flex;
     align-items: center; /* Центрирование по вертикали */
-    flex-direction: column;
     margin: 10px;
-    
+    height: 60px;
 }
 
 .LogoBlock img {
-    width: 140px;
+    width: 80px;
     margin-right: 10px; /* Отступ между логотипом и заголовком */
 }
 
 .LogoBlock h1 {
     font-size: 1.5ch;
     color: white;
+    
 }
 
 
@@ -93,6 +93,18 @@
     background-color: #003973; /* Цвет кнопки при наведении */
 }
 
+
+.Btn{
+    background-color: #F24080;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    padding: 10px 10px 0px 10px;
+    text-decoration: none;
+}
+.Btn p{
+    color: white;
+}
 
 
 

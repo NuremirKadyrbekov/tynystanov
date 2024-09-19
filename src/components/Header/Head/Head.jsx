@@ -9,6 +9,7 @@ import { FaPhone } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
+import Home from '../../Home/Home';
 
 function Head({ onChangeLanguage }) {
     const [isStickyCup, setIsStickyCup] = useState(false);
@@ -57,8 +58,9 @@ function Head({ onChangeLanguage }) {
                 </div>
             </div>
             <div className={Css.Block1}>
-
+              <Home/>
             </div>
+            
         </div>
     )
 }

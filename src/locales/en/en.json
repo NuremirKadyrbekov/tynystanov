@@ -1,5 +1,5 @@
 {
-    "tynystanovName": "K. Tynystanov ISU",
+    "tynystanovName": "Issyk-Kul State University named after K. Tynystanova",
     "location": "722200 Karakol, Issyk-Kul",
     "nav": {
         "nav1": {
@@ -26,6 +26,14 @@
         },
         "nav6": {
             "title": "Centers"
-        }
-    }
+        },
+        "login":"Login"
+
+    },
+    "shortname":"IKSU",
+    "RegCardTitle":"Registration",
+   "RegCardSubTitle":"Online",   
+   "RegCardDesc":"Online registration of applicants on the basis of secondary specialized and higher education",
+   "RegCardBtn":"Go",
+   "LibCard":"Scientific Library"
 }

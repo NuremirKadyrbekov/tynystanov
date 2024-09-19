@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Bubbles&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* overflow-y: hidden; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.Main {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  width: 100%;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('../../assets/bgc2Auth.jpg'); */
+  background-color: #2A1A5E;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  /* box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.178); */
+
+  
+}
+.Logo{
+    width: 60px;
+    height: auto;
+}
+
+.AuthBlock {
+  width: 90%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.232);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.AuthBlock p{
+    margin-top: -10px;
+}
+
+.AuthBlock form {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+
+}
+
+.AuthBlock h1 {
+  z-index: 999;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.AuthBlock form input {
+  width: 80%;
+  margin-bottom: 10px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.362);
+  /* border: 1px solid rgba(255, 255, 255, 0.362); */
+  padding-left: 10px;
+  border-radius: 7px;
+  outline: none;
+  color: rgb(49, 79, 87);
+  font-weight: 700;
+}
+
+::placeholder {
+  color: rgba(97, 95, 95, 0.385);
+}
+
+
+.AuthBlock form button {
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(235, 19, 91);
+  margin-bottom: 20px;
+}
+.input{
+  
+  border: 1px solid rgba(255, 255, 255, 0.362);
+
+}
+
+.error {
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+  color: brown;
+  
+}
+
+
+.phoneInputInvalid {
+  /* border-color: red; */
+  border: 2px solid rgba(255, 0, 0, 0.362);
+
+  animation: invalid 200ms linear ;
+}
+@keyframes invalid {
+  0%{
+    margin-left: 0px;
+  }
+  30%{
+    margin-left: 6px;
+
+  }
+  50%{
+    margin-left: 0px;
+
+  }
+  80%{
+    margin-left: -6px;
+  }
+  100%{
+    margin-left: 0px;
+  }
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+  .Main {
+    padding: 30px;
+  }
+
+  .AuthBlock {
+    width: 80%;
+  }
+
+  .AuthBlock form input,
+  .AuthBlock form button {
+    height: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Main {
+    padding: 40px;
+  }
+
+  .AuthBlock {
+    width: 70%;
+  }
+
+  .AuthBlock form input,
+  .AuthBlock form button {
+    height: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Main {
+    padding: 50px;
+  }
+
+  .AuthBlock {
+    width: 60%;
+  }
+
+  .AuthBlock form input,
+  .AuthBlock form button {
+    height: 55px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Main {
+    padding: 60px;
+  }
+
+  .AuthBlock {
+    width: 50%;
+  }
+
+  .AuthBlock form input,
+  .AuthBlock form button {
+    height: 50px;
+  }
+}
