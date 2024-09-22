@@ -19,7 +19,7 @@ i18n
         translation:EN
       }
     },
-    lng: 'kg',  
+    lng: 'ru',  
     fallbackLng: 'ru', 
     interpolation: {
       escapeValue: false 

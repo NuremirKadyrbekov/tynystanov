@@ -9,8 +9,7 @@ import { FaPhone } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
-import Home from '../../Home/Home';
-import Footer from '../../Footer/Footer';
+
 
 function Head({ onChangeLanguage }) {
     const [isStickyCup, setIsStickyCup] = useState(false);
@@ -58,10 +57,7 @@ function Head({ onChangeLanguage }) {
                     <NavBar />
                 </div>
             </div>
-            <div className={Css.Block1}>
-              <Home/>
-            </div>
-              <Footer/>
+            
         </div>
     )
 }

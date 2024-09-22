@@ -10,9 +10,9 @@ function NavBar() {
   const { t } = useTranslation();
   const [Local, isLocal] = useState()
 
-  useEffect(()=>{
+  useEffect(() => {
     isLocal(localStorage.getItem('userToken'))
-  },[])
+  }, [])
 
   const [isSticky, setIsSticky] = useState(false);
 
@@ -43,51 +43,51 @@ function NavBar() {
         <nav className={Css.navbar}>
           <ul className={Css.NavBarUl}>
             <li className={Css.dropdown}>
-              <a href="#" className={Css.dropbtn}>{t('nav.nav1.title')}</a>
+              <Link to={'/'}><a href="#" className={Css.dropbtn}>{t('nav.nav1.title')}</a></Link>
               <ul className={Css.dropdownContent}>
-                <li><a href="#">{t('nav.nav1.m1')}</a></li>
-                <li><a href="#">{t('nav.nav1.m2')}</a></li>
-                <li><a href="#">{t('nav.nav1.m3')}</a></li>
+                <li><Link to={'/about'}>{t('nav.nav1.m1')}</Link></li>
+                <li><Link to={'/management'}>{t('nav.nav1.m2')}</Link></li>
+                <li><Link to={'/frame'}>{t('nav.nav1.m3')}</Link></li>
               </ul>
             </li>
 
             <li className={Css.dropdown}>
-              <a href="#" className={Css.dropbtn}>{t('nav.nav2.title')}</a>
+              <Link ><a href="#" className={Css.dropbtn}>{t('nav.nav2.title')}</a></Link>
               <ul className={Css.dropdownContent}>
-                <li><a href="#">{t('nav.nav2.m1')}</a></li>
-                <li><a href="#">{t('nav.nav2.m2')}</a></li>
-                <li><a href="#">{t('nav.nav2.m3')}</a></li>
-                <li><a href="#">{t('nav.nav2.m4')}</a></li>
+                <li><Link to={'/facolty'}>{t('nav.nav2.m1')}</Link></li>
+                <li><Link to={'https://college.iksu.kg/'}>{t('nav.nav2.m2')}</Link></li>
+                <li><Link to={''}>{t('nav.nav2.m3')}</Link></li>
+                <li><Link to={'/course'}>{t('nav.nav2.m4')}</Link></li>
 
               </ul>
             </li>
             <li className={Css.dropdown}>
-              <a href="#" className={Css.dropbtn}>{t('nav.nav3.title')}</a>
-              <ul className={Css.dropdownContent}>
-
-              </ul>
-            </li>
-            <li className={Css.dropdown}>
-              <a href="#" className={Css.dropbtn}>{t('nav.nav4.title')}</a>
+              <Link><a href="#" className={Css.dropbtn}>{t('nav.nav3.title')}</a></Link>
               <ul className={Css.dropdownContent}>
 
               </ul>
             </li>
             <li className={Css.dropdown}>
-              <a href="#" className={Css.dropbtn}>{t('nav.nav5.title')}</a>
+              <Link><a href="#" className={Css.dropbtn}>{t('nav.nav4.title')}</a></Link>
               <ul className={Css.dropdownContent}>
 
               </ul>
             </li>
             <li className={Css.dropdown}>
-              <a href="#" className={Css.dropbtn}>{t('nav.nav6.title')}</a>
+              <Link><a href="#" className={Css.dropbtn}>{t('nav.nav5.title')}</a></Link>
               <ul className={Css.dropdownContent}>
 
               </ul>
             </li>
-            
-            {Local?'':<Link className={Css.Btn}  to={'/login'}><p>{t('nav.login')}</p></Link>}
-              
+            <li className={Css.dropdown}>
+              <Link><a href="#" className={Css.dropbtn}>{t('nav.nav6.title')}</a></Link>
+              <ul className={Css.dropdownContent}>
+
+              </ul>
+            </li>
+
+            {Local ? '' : <Link className={Css.Btn} to={'/login'}><p>{t('nav.login')}</p></Link>}
+
           </ul>
 
         </nav>
@@ -102,19 +102,19 @@ function NavBar() {
           <li className={Css.dropdown}>
             <a href="#" className={Css.dropbtn}>{t('nav.nav1.title')}</a>
             <ul className={Css.dropdownContent}>
-              <li><a href="#">{t('nav.nav1.m1')}</a></li>
-              <li><a href="#">{t('nav.nav1.m2')}</a></li>
-              <li><a href="#">{t('nav.nav1.m3')}</a></li>
+              <li><Link to={'/about'}>{t('nav.nav1.m1')}</Link></li>
+              <li><Link to={'/management'}>{t('nav.nav1.m2')}</Link></li>
+              <li><Link to={'/frame'}>{t('nav.nav1.m3')}</Link></li>
             </ul>
           </li>
 
           <li className={Css.dropdown}>
             <a href="#" className={Css.dropbtn}>{t('nav.nav2.title')}</a>
             <ul className={Css.dropdownContent}>
-              <li><a href="#">{t('nav.nav2.m1')}</a></li>
-              <li><a href="#">{t('nav.nav2.m2')}</a></li>
+              <li><Link to={'/facolty'}>{t('nav.nav2.m1')}</Link></li>
+              <li><Link to={'https://college.iksu.kg'}>{t('nav.nav2.m2')}</Link></li>
               <li><a href="#">{t('nav.nav2.m3')}</a></li>
-              <li><a href="#">{t('nav.nav2.m4')}</a></li>
+              <li><Link to={'/course'}>{t('nav.nav2.m4')}</Link></li>
 
             </ul>
           </li>
@@ -142,7 +142,7 @@ function NavBar() {
 
             </ul>
           </li>
-          {Local?'':<Link className={Css.Btn}  to={'/login'}><p>{t('nav.login')}</p></Link>}
+          {Local ? '' : <Link className={Css.Btn} to={'/login'}><p>{t('nav.login')}</p></Link>}
 
         </ul>
       </div>

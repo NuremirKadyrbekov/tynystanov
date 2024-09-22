@@ -53,5 +53,93 @@
         "f2":"Frame 2 ",
         "f3":"Frame 3",
         "f4":"Frame 4 College"
-    }    
+    },
+    "cards":{
+        "c1":{
+            "title":"Our History",
+            "SubTitle":"Gallery of rectors, About the person whose name the university bears"
+        },
+        "c2":{
+            "title":"Our Mission",
+            "SubTitle":"Our mission is to inspire, educate and create the future together!"
+
+        },
+        "c3":{
+            "title":"accreditation",
+            "SubTitle":"Accreditation: a guarantor of quality and efficiency in the education management system."
+        }   
+    },  
+    "History":{
+        "card1":{
+            "title":"A Brief History of the University",
+            "SubTitle":"Issyk-Kul State University is located in the center of Karakol, Issyk-Kul region. The University, one of the largest educational institutions in the country, was established by the decree of the Council of People's Commissars of the Kyrgyz SSR on June 13, 1940 as a two-year teachers' institute. The first director of the institute was A. Shendrich, the famous philologist Z.Bektenov became his deputy. At the beginning of the Second World War in 1941, the Frunze Pedagogical Institute was transferred to the city of Przhevalsk and assigned to the teachers' institute. At that time, the educational institution was headed by one of the first chemical scientists of Kyrgyzstan, S.A. arbaeva. In 1944, the teachers' institute in the city of Przhevalsk was restored, which included natives of the same city. It was named after Dmitrov. In 1941, for his courage shown in the battles for Belarus in the Great Patriotic War, G.Dmitrov was one of the first to be awarded the title Hero of the Soviet Union. By the decree of the Council of Ministers of the USSR dated April 22, 1953, the Przhevalsky State Pedagogical Institute was established on the basis of the Teachers' Institute. S.Yusupov was appointed rector of the institute. Having gained a new status, the educational institution raised the training of teachers to a high level and began training not only for Issyk-Kul and Naryn regions, but also for Kyrgyzstan as a whole. It has become one of the leading educational institutions of higher pedagogical education in the republic. With the independence of Kyrgyzstan on December 18, 1992, the educational institution became a university, to which a talented linguist, the first professor K. was invited.The name of Tynystanov has been assigned! The teaching staff of the university began to train qualified, necessary personnel for all industries of the country.The pride of the university are graduates who are famous not only in Kyrgyzstan, but also abroad: academicians and others.Jeenbayev, B.Orozbayeva, A.Karypkulov, as well as famous scientists E.Maanaev,I.Biybosunov, A.Rusbaev, A.Toktosopiev, S.Abdullaev, K.Dabaev, K.Abdyldaev, N.K. Mamatkerimov, Heroes of Socialist Labor K.Mambetaliev, Sh.Shukurbaeva, People's Teacher of the USSR J.V. I. Surikov, People's teacher of Kyrgyzstan J. A.Uzubekova, honored teachers A. Akhmatova, H.Akhmetova,A.Kangeldiev, state and public figures J.Saadanbekov, J.Kanymetov,A.Abdurakhmanova, T.Mamytov, T.Ishemkulov,A.Narynkulov Zh.B. The staff of Issyk-Kul State University professors and teachers H.Karasaev, Z.Bektenov,K.Beishenbayev,O.Rudkovsky, N.Tokombayev,M.Boronbayev,E.Ryskulov,A.Mayrykov, Ni Kuzmina, who made a huge contribution to the development of the university, M.Zhumagulov, Zh.Mamytova, T.Orunbayev, D.Chingyshev Zh.B. he will never forget his contribution to the development of the educational institution."
+        },
+        "card2":{
+            "title":"ABOUT AN OUTSTANDING PERSON BEARING THE NAME OF THE UNIVERSITY",
+            "SubTitle":"Kasym Tynystanov is a linguist, poet, writer, public and statesman. K. Despite the fact that Tynystanov's personal life (1901-1938) and creative life (1919-1937) were short, he went down in history as a brilliant scientist, a talented organizer and one of the leaders of cultural construction in Kyrgyzstan. He was born in 1901 in the village of Chirpykty, Issyk-Kul region. He learned to read and write Arabic script from his father, for the first time from 1909 to 1912. He studied at the theological school in the village. 1913-1915 He was educated at the Uzbek New Methodist school in Karakol, in 1915-1916 at the Russian boarding school in Baysoruu (now Ananyevo). In 1916, he fled with his parents to China, from where he returned in 1918. In 1919, he entered the Kazakh-Kyrgyz Educational Institute in Tashkent. He graduated in 1924, worked at the Academic Center (scientific commission) Secretary of the Turkestan Republic, chairman of the Kara-Kirghiz regional department, for some time editor of the newspaper 'Erkin-Too', in 1927-1930. People's Commissar of Education of the Kyrgyz ASSR, 1931-1937 He worked at the Kyrgyz Construction Institute as a senior researcher, later as its director. In 1932, he was the first to receive the academic title of associate professor, in 1936 - the academic title of professor. As the main results of the fruitful activity of an outstanding personality, you can specify: 1. Participated in the reform of the Arabic alphabet in accordance with the Kyrgyz language and compiled the first textbooks in the Kyrgyz language on the reformed alphabet ('uҡiu kitebi' (1924), 'alphabet for adults' (1926)). He developed a Kyrgyz spelling based on the Arabic alphabet, a new alphabet based on Latin graphics and a spelling based on the Latin alphabet. 2. Laid the scientific foundations of Kyrgyz linguistics: created the theory of grammar of the Kyrgyz language; laid the foundations of morphology, morphology, syntax, lexicology ('our language' (1927), 'morphology of the Kyrgyz language' (1934), 'syntax of the Kyrgyz language' (1936)). He was one of the first to develop a terminology system for individual branches of science. He organized the first linguistic, ethnographic, and folkloristic expeditions and prepared the first scientific reports on the sections of philology-textual, dialectology, and folklore studies. 3. Working in the Commission on Science, the academic center and in the positions of Commissioner of Public education, with his works he laid the foundations of such fields of science as literary studies, history, ethnography and regional studies. He determined the directions of the first scientific research in Kyrgyzstan, actively participated in the organization and management of the emerging Kyrgyz science. 4. He was the initiator, active participant and leader of the collection, recording, research, publication, translation of the epic 'Manas' into Russian. 5. He is known for his works as a poet, novelist, playwright, journalist and publicist, bilingual translator, politician and public figure.Tynystanov was one of the founders of the written form of the Kyrgyz literary language, Kyrgyz professional literature. The poems were published in Moscow in 1925 under the title 'collection of Kasimov's poems'.  But K.Useless criticism was expressed for some of Tynystanov's poems, the poem 'Janyl Myrza', the cycle of plays 'academic evenings', and he himself was accused of slandering 'richly aristocratic, nationalist, bourgeois, Alash-Horde'. In 1937 he was repressed, and in 1938 he was sentenced to death by firing squad. He was fully rehabilitated half a century later, in 1988."
+        },
+        "RecTitle":"Rectors Gallery"
+
+    },
+    "Mission":{
+        "title1":"Kasym Tynystanov IKSU",
+        "title2":"Our Mission and Goals",
+        "title3":"Training of qualified specialists and conducting scientific research in priority areas with the aim of ensuring sustainable development of the Issyk-Kul region."
+    },
+    "Management":{
+        "card1":{
+            "title":"Rectorate", 
+            "SubTitle":"Rectorate — Leading to success through knowledge and leadership!"
+        },
+        "card2":{
+            "title":"Academic Council",
+            "SubTitle":"Academic Council — Wisdom guiding development and innovation."
+        },
+        "card3":{
+            "title":"Board of Trustees",
+            "SubTitle":"Board of Trustees — Support that strengthens the future."
+        },
+        "card4":{
+            "title":"Trade Union",
+            "SubTitle":"Trade Union — Protecting the rights and interests of everyone."
+        }
+    }, 
+    "edu":{
+        "title":"Academic Council",
+        "SubTitle":"The Academic Council is the highest socio-professional governing body of the Issyk-Kul State University named after K.You're right. The main functions and tasks of the Academic Council are to consider issues and develop proposals for the creation, disbandment, consolidation and division of faculties, departments, other scientific and educational units; approval of annual and long-term plans for the development of higher education institutions; listening to reports of vice-rectors, heads of structural divisions of a higher educational institution on educational, methodical, scientific, financial, economic and educational activities and taking measures to further improve them; conducting competitive elections in accordance with the established procedure for filling positions of teaching staff, heads of departments, heads of other educational and scientific departments; consideration of cases of applicants for academic titles of professor and associate professor, and their submission for approval to the Higher Attestation Commission of the Kyrgyz Republic, consideration of cases on the submission of scientific and pedagogical personnel of a higher educational institution to government awards. The Academic Council is formed as part of the rector (chairman of the council), vice-rectors, head of the educational department, deans of faculties, heads of profile departments, heads of other scientific and pedagogical departments, trade union and student public organizations."
+    },
+    "stepwardship": {
+    "title": "University Board of Trustees",
+    "SubTitle": "The University Board of Trustees is an independent advisory body that brings together business leaders, public figures, government representatives, and other stakeholders who contribute to the strategic development and support of our university."
+},
+"trade":{
+    "title":"Joint Committee of Trade Unions",
+    "SubTitle":"The Trade Union of Education and Science Workers of the Kyrgyz Republic is guided by the Constitution of the Kyrgyz Republic, the Labor Code of the Kyrgyz Republic, and the laws of the Kyrgyz Republic' On trade unions','on public associations','On labor protection', 'on social partnership in the field of labor relations in the Kyrgyz Republic', etc.B. Acts in accordance with the legislation of the Kyrgyz Republic, the Charter of the Central Committee of the Trade Union of Education and Science Workers of the Kyrgyz Republic and other normative legal acts. The University Trade Union has occupied a leading position in its multifaceted and creative activities since the creation, formation and strengthening of the two-year pedagogical institute in the 40s of the last century, which was subsequently reorganized into a university. The main content and main strategic direction of our university trade union organization has always been the strengthening of labor discipline, the organization of competitions between employees, students, teams of university departments, socio-economic protection and support of employees and students, expression of their interests and protection of their rights, participation in the work on the fulfillment of collective agreements and supervision of production activities staff and student training. creating conditions for workplace safety, organization of leisure and leisure activities of the university staff, holding large-scale cultural and sports recreational events. In the 1940s and 1990s, the trade union committee was responsible for the appointment and issuance of scholarships, the provision of places in dormitories and the operation of dormitories, canteens, consumer goods, etc. It carried out distribution and control. A special place in the activities of the university trade union during these years was occupied by the solution of the housing issue of its employees. At the same time, the issues of queuing, establishing links with relevant construction organizations and government agencies, and distributing the received housing were resolved. The high professional specialization and business qualities of its trade union leadership have always helped in the implementation of the statutory duties of the university trade union. At various times, the leaders of the trade union were: Z.Babanazarova, D.Stamov, K.Ibakov, O.Karashev, N.Bekmukhamedova, K.Bekturganova, B.Muratov, Z.I.Plekhanov, G.T. At one time, Aldeeva conducted acceptable work in accordance with labor legislation and the Charter of the trade union, engaged in productive work. Currently, the trade union committee is headed by a deputy of the Karakol city Kenesh, an excellent student of the trade union movement of education and science workers of the Kyrgyz Republic, Candidate of Philological Sciences, associate Professor T. Zh. Asirdinov."
+}, 
+"frameCard": {
+    "f1": "Academic Department",
+    "f2": "Accounting",
+    "f3": "Planning and Economic Department",
+    "f4": "Department of International Relations",
+    "f5": "General Department",
+    "f6": "Archive",
+    "f7": "IT Department and Computer Repair",
+    "f8": "Department of Science and Innovation",
+    "f9": "HR Department",
+    "f10": "Administrative and Economic Department",
+    "f11": "Department of State Language and Youth Policy",
+    "f12": "Education Informatization Department",
+    "f13": "Department of Special and Mobilization Work"
+},
+"facoltyNav": {
+    "nav": {
+        "n1": "About the Faculty",
+        "n2": "Dean's Office Staff",
+        "n3": "Faculty Departments",
+        "n4": "Contacts"
+    }
+}
+
+
+
 }

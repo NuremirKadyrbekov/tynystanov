@@ -13,7 +13,12 @@
     font-style: normal;
 }
 
-
+.Master{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 html,
 body {
     height: 100%;
