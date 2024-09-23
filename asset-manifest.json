@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/tynystanov/static/css/main.290d221d.css",
-    "main.js": "/tynystanov/static/js/main.d6828097.js",
+    "main.css": "/tynystanov/static/css/main.63ed3743.css",
+    "main.js": "/tynystanov/static/js/main.d8786fc8.js",
     "static/media/card1.png": "/tynystanov/static/media/card1.5672ca4db093e3455580.png",
+    "static/media/tourist.png": "/tynystanov/static/media/tourist.6be3534e533b7f62eb1a.png",
     "static/media/history.png": "/tynystanov/static/media/history.8379432cbd95760e78e2.png",
     "static/media/p1.jpg": "/tynystanov/static/media/p1.9e31c8c51e27b0f1f469.jpg",
     "static/media/p3.jpg": "/tynystanov/static/media/p3.dd0be6e3004d60602d3f.jpg",
@@ -14,12 +15,14 @@
     "static/media/4.jpg": "/tynystanov/static/media/4.cdc5bf6a87bc13cfc2d1.jpg",
     "static/media/9.jpg": "/tynystanov/static/media/9.4e5b5a96e3e43f0f50c1.jpg",
     "static/media/8.jpg": "/tynystanov/static/media/8.246af82e52bfd8c7e670.jpg",
+    "static/media/flag.png": "/tynystanov/static/media/flag.ecc3764f9a2d4bb1faef.png",
     "static/media/6.jpg": "/tynystanov/static/media/6.3f4dfe96c863aaddcdc5.jpg",
     "static/media/5.jpg": "/tynystanov/static/media/5.2abda3bbd74e153453dc.jpg",
     "static/media/3.jpg": "/tynystanov/static/media/3.274a38b95637697ba38a.jpg",
     "static/media/10.jpg": "/tynystanov/static/media/10.dd8bbd2e9e62e235bc43.jpg",
     "static/media/18.jpg": "/tynystanov/static/media/18.3eeb446a43e725cc2e6e.jpg",
     "static/media/16.jpg": "/tynystanov/static/media/16.652e386ab1f398c4c999.jpg",
+    "static/media/zal.jpg": "/tynystanov/static/media/zal.fcf29c8ca88c278ba1ed.jpg",
     "static/media/14.jpg": "/tynystanov/static/media/14.26645a11e373c27ed82f.jpg",
     "static/media/11.jpg": "/tynystanov/static/media/11.43e6fb6270c009bddcbc.jpg",
     "static/media/12.jpg": "/tynystanov/static/media/12.44cc3b41808ea83bcb94.jpg",
@@ -33,6 +36,7 @@
     "static/media/books.jpg": "/tynystanov/static/media/books.43d27af3e8c6965f514a.jpg",
     "static/media/card2.jpg": "/tynystanov/static/media/card2.f1670efa2dc00a08ecde.jpg",
     "static/media/f1.jpg": "/tynystanov/static/media/f1.22eac2d8757b015ac7ba.jpg",
+    "static/media/students.jpg": "/tynystanov/static/media/students.a3cc3ad24ff23cfc4cd6.jpg",
     "static/media/drive.png": "/tynystanov/static/media/drive.8ff72f2c1a3d6f9f3390.png",
     "static/media/korea.png": "/tynystanov/static/media/korea.5a010b400d11b65387ba.png",
     "static/media/logo.png": "/tynystanov/static/media/logo.7ef1b707f04caa175677.png",
@@ -76,11 +80,11 @@
     "static/media/slick.ttf": "/tynystanov/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tynystanov/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tynystanov/index.html",
-    "main.290d221d.css.map": "/tynystanov/static/css/main.290d221d.css.map",
-    "main.d6828097.js.map": "/tynystanov/static/js/main.d6828097.js.map"
+    "main.63ed3743.css.map": "/tynystanov/static/css/main.63ed3743.css.map",
+    "main.d8786fc8.js.map": "/tynystanov/static/js/main.d8786fc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.290d221d.css",
-    "static/js/main.d6828097.js"
+    "static/css/main.63ed3743.css",
+    "static/js/main.d8786fc8.js"
   ]
 }
