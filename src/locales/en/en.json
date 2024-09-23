@@ -138,8 +138,43 @@
         "n3": "Faculty Departments",
         "n4": "Contacts"
     }
+}, 
+"Master":{
+    "title":"Master's degree",
+    "text":"Training of scientific-pedagogical and scientific personnel is one of the priority directions in the university's activities, while the main attention is paid to improving the quality of scientific-pedagogical and scientific personnel, attracting young people to scientific research, advanced training of highly qualified personnel for the economy and priority areas of science and technology .",
+    "title2":"Head of master's program",
+    "doc":"Students entering the master's program at ISU. K. Tynystanova must submit the following documents:",
+    "doc1":"personal application to the rector of ISU with indication of the master's program;",
+    "doc2":"a copy of a document certifying identity and citizenship;",
+    "doc3":"curriculum vitae",
+    "doc4":"copy of registration certificate or military card;",
+    "doc5":"6 photos with a size of 3x4."
+},
+"Baccalaureate":{
+        "title":"Baccalaureate"
+    },
+    "SEE":{
+        "title":"Secondary-special education"
+    },
+    "design":{
+        "title":"Design studio 'Chyrak'"
+    },
+    "student": {
+    "c1": "Scholarships",
+    "c2": "contract education",
+    "c3": "academic mobility",
+    "c4": "schedule",
+    "c5": "student life",
+    "c6": "student life",
+    "c7": "student theater “Zhalyn”",
+    "c8": "dance group schedule “Asylzhan”",
+    "c9": "dormitory",
+    "c10": "medical services"
+},
+"siecne": {
+    "c1": "science and innovation info department",
+    "c2": "scientific library",
+    "c3": "journal “Vestnik IGU”"
 }
-
-
 
 }

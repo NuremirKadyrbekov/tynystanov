@@ -4,7 +4,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  
 }
 
 .LogoBlock { 
@@ -52,6 +51,8 @@
 .dropdown{
     text-align: center;
     width: 200px;
+    z-index: 99999;
+
 }
 
 .dropdownContent {
@@ -79,6 +80,7 @@
     text-decoration: none;
     display: block;
     width: 100%;
+    z-index: 99999;
 }
 
 .dropdownContent li a:hover {

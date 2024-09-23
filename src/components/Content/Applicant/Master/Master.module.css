@@ -1,0 +1,207 @@
+/* MastersProgram.css */
+
+.mastersContainer {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .documentTitle {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .documentList {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .documentList li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .documentList li::marker {
+    color: #4CAF50;
+  }
+  
+  @media (max-width: 768px) {
+    .mastersContainer {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .description, .documentList li {
+      font-size: 16px;
+    }
+  
+    .subtitle {
+      font-size: 24px;
+    }
+  }
+  
+
+
+  .userCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 72%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 20px -5px rgba(82, 15, 198, 0.5);
+    gap: 20px;
+    transition: all 0.3s ease;
+    /* z-index: -1; */
+}
+.userCard:hover{
+   transform: translateY(-10px);
+}
+ 
+.userCard:before {
+   content: '';
+   position: absolute;
+   height: 300%;
+   width: 173px;
+   background: var(--main-color);
+   top: -60px;
+   left: -125px;
+   z-index: 0;
+   transform: rotate(17deg);
+ }
+ 
+ .userCardImg {
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+   z-index: 3;
+ }
+ 
+ .userCardImg img {
+   width: 450px;
+   height: 250px;
+   object-fit: cover;
+ }
+ 
+ .userCardInfo {
+   text-align: center;
+ }
+ 
+ .userCardInfo h2 {
+   font-size: 2.4ch;
+   margin: 0;
+   margin-bottom: 10px;
+   font-family: 'Bebas Neue', sans-serif;
+ }
+ 
+ .userCardInfo p {
+   font-size: 14px;
+   margin-bottom: 2px;
+   /* color: var(--main-color); */
+ }
+ .userCardInfo p span {
+    font-weight: 700;
+    margin-right: 10px;
+}
+ @media only screen and (min-width: 768px) {
+   .userCard {
+     flex-direction: row;
+     align-items: flex-start;
+
+   }   
+   .userCard-img {
+     margin-right: 20px;
+     margin-bottom: 0;
+   }
+ 
+   .userCardInfo {
+     text-align: left;
+   }
+ }
+
+ @media (max-width: 767px){
+   .wrapper{
+      padding-top: 3%;
+   }
+   .userCard:before {
+      width: 300%;
+      height: 200px;
+      transform: rotate(0);
+   }
+   .userCardInfo h2 {
+      margin-top: 25px;
+      font-size: 35px;
+   }
+   .userCardInfo p span {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 18px;
+   }
+ }
+
+ @media (max-width:427px) {
+   .userCardInfo h2 {
+     font-size: 1.3rem;
+  }
+  .userCardInfo p span {
+     display: block;
+     margin-bottom: 1rem;
+     font-size: 0.8ch;
+  }
+ }
+ 
+
+ @media (max-width:320px) {
+   .userCardInfo h2 {
+     font-size: 1rem;
+  }
+  .userCardInfo p span {
+     display: block;
+     margin-bottom: 0.7rem;
+     font-size: 0.3ch;
+  }
+
+ }
+ 

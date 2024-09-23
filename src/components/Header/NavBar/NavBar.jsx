@@ -62,19 +62,19 @@ function NavBar() {
               </ul>
             </li>
             <li className={Css.dropdown}>
-              <Link><a href="#" className={Css.dropbtn}>{t('nav.nav3.title')}</a></Link>
+              <Link to={'/applicant'}><a href="#" className={Css.dropbtn}>{t('nav.nav3.title')}</a></Link>
               <ul className={Css.dropdownContent}>
 
               </ul>
             </li>
             <li className={Css.dropdown}>
-              <Link><a href="#" className={Css.dropbtn}>{t('nav.nav4.title')}</a></Link>
+              <Link to={'/student'}><a href="#" className={Css.dropbtn}>{t('nav.nav4.title')}</a></Link>
               <ul className={Css.dropdownContent}>
 
               </ul>
             </li>
             <li className={Css.dropdown}>
-              <Link><a href="#" className={Css.dropbtn}>{t('nav.nav5.title')}</a></Link>
+              <Link to={'/sc'}><a href="#" className={Css.dropbtn}>{t('nav.nav5.title')}</a></Link>
               <ul className={Css.dropdownContent}>
 
               </ul>
@@ -100,7 +100,7 @@ function NavBar() {
         <label for="burger-checkbox" className={Css.burger}></label>
         <ul className={Css.menuList}>
           <li className={Css.dropdown}>
-            <a href="#" className={Css.dropbtn}>{t('nav.nav1.title')}</a>
+            <Link to={'/'} className={Css.dropbtn}>{t('nav.nav1.title')}</Link>
             <ul className={Css.dropdownContent}>
               <li><Link to={'/about'}>{t('nav.nav1.m1')}</Link></li>
               <li><Link to={'/management'}>{t('nav.nav1.m2')}</Link></li>
@@ -119,19 +119,19 @@ function NavBar() {
             </ul>
           </li>
           <li className={Css.dropdown}>
-            <a href="#" className={Css.dropbtn}>{t('nav.nav3.title')}</a>
+            <Link to={'/applicant'} className={Css.dropbtn}>{t('nav.nav3.title')}</Link>
             <ul className={Css.dropdownContent}>
 
             </ul>
           </li>
           <li className={Css.dropdown}>
-            <a href="#" className={Css.dropbtn}>{t('nav.nav4.title')}</a>
+            <Link to={'/student'} className={Css.dropbtn}>{t('nav.nav4.title')}</Link>
             <ul className={Css.dropdownContent}>
 
             </ul>
           </li>
           <li className={Css.dropdown}>
-            <a href="#" className={Css.dropbtn}>{t('nav.nav5.title')}</a>
+            <Link to={'/sc'} className={Css.dropbtn}>{t('nav.nav5.title')}</Link>
             <ul className={Css.dropdownContent}>
 
             </ul>

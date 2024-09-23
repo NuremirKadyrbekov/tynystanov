@@ -414,4 +414,6 @@ const CourseCard = [
 
 
 
+
+
 export {Rectors, Management,FramesMain, CourseCard}

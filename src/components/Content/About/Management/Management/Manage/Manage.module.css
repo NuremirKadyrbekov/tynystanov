@@ -15,12 +15,13 @@
      background-color: #fff;
      border-radius: 10px;
      padding: 40px;
-     width: 950px;
+     width: 72%;
      position: relative;
      overflow: hidden;
      box-shadow: 0 2px 20px -5px rgba(82, 15, 198, 0.5);
      gap: 20px;
      transition: all 0.3s ease;
+     /* z-index: -1; */
  }
  .userCard:hover{
     transform: translateY(-10px);
@@ -75,6 +76,7 @@
     .userCard {
       flex-direction: row;
       align-items: flex-start;
+
     }   
     .userCard-img {
       margin-right: 20px;
@@ -105,6 +107,29 @@
        font-size: 18px;
     }
   }
+
+  @media (max-width:427px) {
+    .userCardInfo h2 {
+      font-size: 1.3rem;
+   }
+   .userCardInfo p span {
+      display: block;
+      margin-bottom: 1rem;
+      font-size: 0.8ch;
+   }
+  }
   
+
+  @media (max-width:320px) {
+    .userCardInfo h2 {
+      font-size: 1rem;
+   }
+   .userCardInfo p span {
+      display: block;
+      margin-bottom: 0.7rem;
+      font-size: 0.3ch;
+   }
+
+  }
   
  

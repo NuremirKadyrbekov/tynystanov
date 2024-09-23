@@ -8,7 +8,7 @@
 }
 .NavBar{
     width: 100%;
-    height: 50px;
+    height: max-content;
     padding: 0px 90px;
     background-color: var(--main-color);
     border-top: 1px solid rgba(186, 182, 182, 0.629);
@@ -16,6 +16,8 @@
     /* align-items: center; */
     /* justify-content: space-between; */
 }
+
+
 .NavBar nav ul{
     display: flex;
     justify-content: space-between;
@@ -24,14 +26,26 @@
     align-items: center;
     padding: 10px 0px;
     color: white;
+    flex-wrap: wrap;
 }
 .NavBar nav ul li{
+  margin: 3px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.599);
     transition: all 0.2s ease;
+    height: 30px;
+    /* border: 1px solid; */
+    padding: 3px;
 }
 .NavBar nav ul li:hover{
     transition: all 0.2s ease;
     background-color: #003973; 
     cursor: pointer;
+}
+
+@media (max-width:560px) {
+.NavBar nav ul li{
+  font-size: 12px;
+}  
 }
 .TextBlock{
     width: 100%;

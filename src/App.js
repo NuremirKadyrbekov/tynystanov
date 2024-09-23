@@ -25,6 +25,10 @@ import Facolty2 from './components/Content/Education/Facolty/Facolty2/Facolty2';
 import Facolty3 from './components/Content/Education/Facolty/Facolty3/Facolty3';
 import Facolty4 from './components/Content/Education/Facolty/Facolty4/Facolty4';
 import Course from './components/Content/Education/Cours/Course';
+import Applicant from './components/Content/Applicant/Applicant';
+import MastersProgram from './components/Content/Applicant/Master/Master';
+import Student from './components/Content/Student/Student';
+import Sience from './components/Content/Sience/Sience';
 
 
 
@@ -69,6 +73,10 @@ function App() {
           <Route path='/facolty/3' element={<Facolty3 onChangeLanguage={changeLanguage}/>}/>
           <Route path='/facolty/4' element={<Facolty4 onChangeLanguage={changeLanguage}/>}/>
           <Route path='/course' element={<Course onChangeLanguage={changeLanguage}/>}/>
+          <Route path='/applicant' element={<Applicant onChangeLanguage={changeLanguage}/>}/>
+          <Route path='/applicant/master' element={<MastersProgram onChangeLanguage={changeLanguage}/>}/>
+          <Route path='/student' element={<Student onChangeLanguage={changeLanguage}/>}/>
+          <Route path='/sc' element={<Sience onChangeLanguage={changeLanguage}/>}/>
 
       </Routes>
     </Router>
