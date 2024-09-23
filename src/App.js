@@ -29,6 +29,7 @@ import Applicant from './components/Content/Applicant/Applicant';
 import MastersProgram from './components/Content/Applicant/Master/Master';
 import Student from './components/Content/Student/Student';
 import Sience from './components/Content/Sience/Sience';
+import Centers from './components/Content/Centers/Centers';
 
 
 
@@ -77,6 +78,7 @@ function App() {
           <Route path='/applicant/master' element={<MastersProgram onChangeLanguage={changeLanguage}/>}/>
           <Route path='/student' element={<Student onChangeLanguage={changeLanguage}/>}/>
           <Route path='/sc' element={<Sience onChangeLanguage={changeLanguage}/>}/>
+          <Route path='/centers' element={<Centers onChangeLanguage={changeLanguage}/>}/>
 
       </Routes>
     </Router>

@@ -80,7 +80,7 @@ function NavBar() {
               </ul>
             </li>
             <li className={Css.dropdown}>
-              <Link><a href="#" className={Css.dropbtn}>{t('nav.nav6.title')}</a></Link>
+              <Link to={'/centers'}><a href="#" className={Css.dropbtn}>{t('nav.nav6.title')}</a></Link>
               <ul className={Css.dropdownContent}>
 
               </ul>
@@ -137,7 +137,7 @@ function NavBar() {
             </ul>
           </li>
           <li className={Css.dropdown}>
-            <a href="#" className={Css.dropbtn}>{t('nav.nav6.title')}</a>
+            <Link to={'/centers'} className={Css.dropbtn}>{t('nav.nav6.title')}</Link>
             <ul className={Css.dropdownContent}>
 
             </ul>
